@@ -10,10 +10,16 @@ const App = observer(() => {
 		store.increaseAmount();
 	};
 
+	const handleDecrease = () => {
+		store.decreaseAmount();
+	};
+
 	return (
 		<div>
-			<h1>Hello2</h1>
-			<div>Number is: {store.amount}</div>
+			<h1>React MobX App with Decorators</h1>
+			<p>Amount: {store.amount}</p>
+			<p>Mult amount: {store.mult}</p>
+			<button onClick={handleDecrease}>Decrease</button>
 			<button onClick={handleIncrease}>Increase</button>
 		</div>
 	);
