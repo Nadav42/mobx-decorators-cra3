@@ -3,7 +3,7 @@ React project configuration with MobX decorators for create react app v3
 
 following this guide: https://tombuyse.be/blog/using-mobx-decorators-in-create-react-app-v3
 
-steps:
+to remake this follow these steps:
 1. npm install --save mobx mobx-react
 2. npm install --save-dev customize-cra react-app-rewired
 3. change package.json scripts:
