@@ -1,7 +1,9 @@
 # mobx-decorators-cra3
 React project configuration with MobX decorators for create react app v3
 
-original guide: https://tombuyse.be/blog/using-mobx-decorators-in-create-react-app-v3
+The problem with CRA: ``SyntaxError: Support for the experimental syntax 'decorators-legacy' isn't currently enabled``
+
+credit to original guide: https://tombuyse.be/blog/using-mobx-decorators-in-create-react-app-v3
 
 to remake this follow these steps:
 1. npm install --save mobx mobx-react
